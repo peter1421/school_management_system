@@ -2,10 +2,10 @@ name: "School Management System App"
 on:
     push:
         branches:
-            - master
+            - master2
     pull_request:
         branches:
-            - master
+            - master2
 
 jobs:
     build:
