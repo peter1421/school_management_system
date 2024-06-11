@@ -32,9 +32,9 @@ jobs:
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       - name: Collect static files
-      run: |
-        echo "yes" | python manage.py collectstatic
-        
+        run: |
+          echo "yes" | python manage.py collectstatic
+
       - name: makemigrations
         run: python manage.py makemigrations
 
